@@ -7,9 +7,9 @@ ip=input("what is nolan's ip today?\n>>")
 appid = input("What is your key?\n>>")
 ask = 0
 while ask ==0:
-    route = input("Which route would you like to access?(fruit/grade) \n>>")
+    route = input("Which would you like to access?(fruit/grade) \n>>")
     route=route.lower()
-    insert = input("What do you like to see?\n>> ")
+    insert = input("What exact item do you like to see?\n>> ")
     if route != "grade":
         if route != "fruit":
             print("Route does not exist.")
