@@ -2,7 +2,7 @@ import requests as req
 
 # key = UDHFTGHVCJUDI
 
-print("Welcome to Nolan's website!")
+print("Welcome to Nolan's comment website!\nHere you can see nolan's comments on fruits or grades of people.")
 ip=input("what is nolan's ip today?\n>>")
 appid = input("What is your key?\n>>")
 ask = 0
